@@ -1,0 +1,70 @@
+body {
+  background-image: url('src/assets/images/ateria.JPG');
+  background-size: contain;
+}
+.main-container {
+  padding: 30px;
+  background-color: #e9a159;
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 40px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #0b0b0b;
+}
+
+.title {
+  color: #0b0b0b;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.counter-val {
+  
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0a0a0a;
+  min-width: 30px;
+}
+.kaikkiArviot {
+    text-align: good;
+    font-size: 0.9rem;
+  color: #0b0a0a;
+}
+
+.button {
+  background-color: #cc0909;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.stats {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #ddd;
+  color: #0d0d0d;
+}
+
+.description {
+  margin-top: 10px;
+  font-style: italic;
+  color: #160101;
+}
