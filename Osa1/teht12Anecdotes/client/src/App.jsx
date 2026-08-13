@@ -25,7 +25,7 @@ const App = () => {
   const min = 0
   const max = anecdotes.length - 1
   const [selected, setSelected] = useState(0)
-
+  console.log('selected', selected,"min", min, "max", max)
   const handleClick = () => {
     const next = satunnaisluku(min, max)
     console.log('nappia painettu', next)
