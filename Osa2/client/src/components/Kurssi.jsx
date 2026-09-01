@@ -1,10 +1,4 @@
-// src/App.jsx
-import './App.css';
-import courses from './components/course'; //sisältää kurssien tiedot 
-import Course,{Footer} from './components/Kurssi'; // sisältää kurssien komponentit
-
-// Header-komponentti palauttaa kurssin nimen otsikkoon
-/*const Header = ({ course }) => <h1>{course}</h1>;
+const Header = ({ course }) => <h1>{course}</h1>;
 
 
 // Part-komponentti palauttaa yhden kurssin tiedot listaan.
@@ -44,7 +38,6 @@ const Content = ({ parts }) => (
 const Footer = () => {
   console.log('footer näkyy')
    return (
-  
   <div>
   <h3>Muista ulkoilla</h3> 
   </div>
@@ -59,21 +52,6 @@ const Course = ({ course }) => {
       <TotalExercises parts={course.parts} />
     </div>
   );
-};*/
-
-// App-komponentti
-const App = () => {
-
-  return (
-    <div>
-      {courses.map(course => (
-      <Course key ={course.id} course={course} />
-       )
-      )}
-    
-      <Footer />
-    </div>
-  );
 };
-
-export default App;
+export default Course;
+export { Footer };
